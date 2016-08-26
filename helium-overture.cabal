@@ -1,4 +1,4 @@
-name:                overture
+name:                helium-overture
 version:             1.0.0
 synopsis:            A backwards-compatible, modern replacement for the Prelude.
 license:             PublicDomain
@@ -12,7 +12,7 @@ library
   hs-source-dirs:      src
   exposed-modules:     Overture
   default-language:    Haskell2010
-  build-depends:       base
+  build-depends:       base < 6
                      , bytestring
                      , deepseq
                      , lifted-base
