@@ -45,7 +45,7 @@ import           Data.List                as X hiding (all, and, any, concat,
                                                 foldl', foldl1, foldr, foldr1,
                                                 mapAccumL, mapAccumR, maximum,
                                                 maximumBy, minimum, minimumBy,
-                                                notElem, or, product, sum)
+                                                notElem, or, product, sum, (\\))
 import           Data.Maybe               as X
 import           Data.Monoid              as X
 import           Data.Ord                 as X
